@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 // import masterPlan from '../../assets/arena_masterplan4.png';
-import masterPlan from '../../assets/MASTERPLAN-5.png';
+import masterPlan from '../../assets/MASTERPLAN-55.png';
 // import masterPlan from '../../assets/masterplan_new_18_7_2026.webp';
 
 // import Header from '../components/Header';

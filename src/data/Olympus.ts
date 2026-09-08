@@ -148,10 +148,9 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
@@ -393,9 +392,9 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -451,9 +450,9 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -639,14 +638,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -703,7 +701,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -760,7 +758,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -821,7 +819,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -882,11 +880,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 205,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -940,11 +938,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 206,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -998,7 +996,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1057,7 +1055,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1130,14 +1128,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1194,7 +1191,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1251,7 +1248,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1312,7 +1309,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1373,11 +1370,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 305,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -1431,11 +1428,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 306,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -1489,7 +1486,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1548,7 +1545,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1621,14 +1618,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1685,7 +1681,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1742,7 +1738,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1803,7 +1799,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1864,11 +1860,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 405,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -1922,11 +1918,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 406,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -1980,7 +1976,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2039,7 +2035,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2111,14 +2107,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2175,7 +2170,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2232,7 +2227,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2293,7 +2288,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2354,11 +2349,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 505,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -2412,11 +2407,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 506,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -2470,7 +2465,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2529,7 +2524,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2601,14 +2596,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2665,7 +2659,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2722,7 +2716,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2783,7 +2777,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2844,11 +2838,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 605,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -2902,11 +2896,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 606,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -2960,7 +2954,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3019,7 +3013,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3091,14 +3085,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3155,7 +3148,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3212,7 +3205,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3273,7 +3266,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3334,11 +3327,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 805,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -3392,11 +3385,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 806,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -3450,7 +3443,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3509,7 +3502,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3581,14 +3574,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3645,7 +3637,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3702,7 +3694,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3763,7 +3755,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3824,11 +3816,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 905,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -3882,11 +3874,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 906,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -3940,7 +3932,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3999,7 +3991,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4071,14 +4063,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4135,7 +4126,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4192,7 +4183,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4253,7 +4244,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4314,11 +4305,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1005,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -4372,11 +4363,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1006,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -4430,7 +4421,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4489,7 +4480,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4561,14 +4552,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4625,7 +4615,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4682,7 +4672,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4743,7 +4733,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4804,11 +4794,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1105,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -4862,11 +4852,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1106,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -4920,7 +4910,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4979,7 +4969,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5051,14 +5041,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5115,7 +5104,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5172,7 +5161,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5233,7 +5222,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5294,11 +5283,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1305,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -5352,11 +5341,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1306,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -5410,7 +5399,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5469,7 +5458,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5540,14 +5529,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5604,7 +5592,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5661,7 +5649,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5722,7 +5710,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5783,11 +5771,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1405,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -5841,11 +5829,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1406,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -5899,7 +5887,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5958,7 +5946,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6030,14 +6018,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6094,7 +6081,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6151,7 +6138,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6212,7 +6199,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6273,11 +6260,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1505,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -6331,11 +6318,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1506,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -6389,7 +6376,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6448,7 +6435,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6520,14 +6507,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6584,7 +6570,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6641,7 +6627,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6702,7 +6688,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6763,11 +6749,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1605,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -6821,11 +6807,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1606,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -6879,7 +6865,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6938,7 +6924,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7009,14 +6995,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7073,7 +7058,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7130,7 +7115,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7191,7 +7176,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7252,11 +7237,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1805,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -7310,11 +7295,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1806,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -7368,7 +7353,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7427,7 +7412,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7498,14 +7483,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 1901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7562,7 +7546,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7619,7 +7603,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7680,7 +7664,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7741,11 +7725,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1905,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -7799,11 +7783,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1906,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -7857,7 +7841,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7916,7 +7900,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7988,14 +7972,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8052,7 +8035,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8109,7 +8092,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8170,7 +8153,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8231,11 +8214,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2005,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -8289,11 +8272,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2006,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -8347,7 +8330,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8406,7 +8389,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8477,14 +8460,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8541,7 +8523,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8598,7 +8580,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8659,7 +8641,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8720,11 +8702,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2105,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -8778,11 +8760,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2106,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -8836,7 +8818,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8895,7 +8877,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8967,14 +8949,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9031,7 +9012,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9088,7 +9069,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9149,7 +9130,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9210,11 +9191,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2305,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -9268,11 +9249,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2306,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -9326,7 +9307,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9385,7 +9366,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9457,14 +9438,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9521,7 +9501,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9578,7 +9558,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9639,7 +9619,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9700,11 +9680,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2405,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -9758,11 +9738,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2406,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -9816,7 +9796,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9875,7 +9855,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9947,14 +9927,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10011,7 +9990,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10068,7 +10047,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10129,7 +10108,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10190,11 +10169,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2505,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -10248,11 +10227,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2506,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -10306,7 +10285,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10365,7 +10344,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10437,14 +10416,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10501,7 +10479,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10558,7 +10536,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10619,7 +10597,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10680,11 +10658,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2605,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -10738,11 +10716,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2606,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -10796,7 +10774,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10855,7 +10833,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10926,14 +10904,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10990,7 +10967,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11047,7 +11024,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11108,7 +11085,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11169,11 +11146,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2805,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -11227,11 +11204,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2806,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -11285,7 +11262,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11344,7 +11321,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11416,14 +11393,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 2901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11480,7 +11456,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11537,7 +11513,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11598,7 +11574,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11659,11 +11635,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2905,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -11717,11 +11693,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2906,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -11775,7 +11751,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11834,7 +11810,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11907,14 +11883,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11971,7 +11946,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12028,7 +12003,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12089,7 +12064,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12150,11 +12125,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3005,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -12208,11 +12183,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3006,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -12266,7 +12241,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12325,7 +12300,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12397,14 +12372,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12461,7 +12435,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12518,7 +12492,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12579,7 +12553,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12640,11 +12614,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3105,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -12698,11 +12672,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3106,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -12756,7 +12730,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12815,7 +12789,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12886,14 +12860,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12950,7 +12923,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13007,7 +12980,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13068,7 +13041,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13129,11 +13102,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3305,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -13187,11 +13160,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3306,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -13245,7 +13218,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13304,7 +13277,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13376,14 +13349,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13440,7 +13412,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13497,7 +13469,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13558,7 +13530,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13619,11 +13591,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3405,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -13677,11 +13649,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3406,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -13735,7 +13707,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13794,7 +13766,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13866,14 +13838,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13930,7 +13901,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13987,7 +13958,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14048,7 +14019,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14109,11 +14080,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3505,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -14167,11 +14138,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3506,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -14225,7 +14196,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14284,7 +14255,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14356,14 +14327,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14420,7 +14390,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14477,7 +14447,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14538,7 +14508,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14599,11 +14569,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3605,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -14657,11 +14627,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3606,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -14715,7 +14685,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14774,7 +14744,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14847,14 +14817,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14911,7 +14880,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14968,7 +14937,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15029,7 +14998,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15090,11 +15059,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3805,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -15148,11 +15117,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3806,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -15206,7 +15175,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15265,7 +15234,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15336,14 +15305,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 3901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15400,7 +15368,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15457,7 +15425,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15518,7 +15486,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15579,11 +15547,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3905,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -15637,11 +15605,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3906,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -15695,7 +15663,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15754,7 +15722,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15825,14 +15793,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 101,
+                id: 4001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15889,7 +15856,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 4002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15946,7 +15913,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 4003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16007,7 +15974,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 4004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16068,11 +16035,11 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 4005,
                 name: "Unit No-5",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
@@ -16126,11 +16093,11 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 4006,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(236,169,247,0.4)",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
 
                 polygonPoints:
                     "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
@@ -16184,7 +16151,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 4007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16243,7 +16210,494 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 4008,
+                name: "Unit No-8",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(236,169,247,0.4)",
+
+                polygonPoints:
+                    "1725,1102,1761,859,1562,859,1575,824,1354,820,1337,798,882,793,868,837,807,833,776,908,656,912,595,1102,961,1107,948,1191,1491,1199,1513,1107",
+                unitimage: floorunit8,
+                image2D: floorunit2D8,  //2d
+                image2Dstatic: floorunit2D88,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "688,443,1186,450,1146,1031,587,1028" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "630,726,579,1039,304,1036,389,723" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "810,347,786,440,1086,448,1107,350" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1197,440,1165,885,1700,880,1692,440" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1104,1039,1539,1041,1536,1256,1086,1251" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1748,425,2090,425,2106,526,1748,526" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1364,896,1364,1036,1708,1031,1703,885" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1152,893,1361,896,1361,1033,1157,1028" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "1687,526,2196,531,2270,1029,1708,1029" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "1563,1030,2275,1033,2307,1253,1570,1258" },
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "2220,638,2641,638,2726,1033,2275,1036" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "2228,492,2503,492,2540,635,2260,638" },
+
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "744,450,738,1142,1186,1147,1194,453" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "728,805,730,1147,518,1155,524,808" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "1096,260,1096,435,836,437,839,257" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1205,454,1645,459,1639,978,1205,981" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1160,1161,1502,1158,1502,1373,1162,1373" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1708,360,2021,360,2016,535,1708,543" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1364,1004,1364,1150,1565,1150,1563,1002" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1189,999,1189,1145,1361,1145,1361,999" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "1658,558,1663,1117,2106,1120,2101,561" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "1539,1123,1533,1372,2106,1374,2108,1128" },
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "2116,705,2474,705,2477,1145,2122,1145" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "2143,514,2143,686,2387,692,2387,514" },
+
+
+
+
+                ]
+            },
+        ],
+    },
+ {
+        id: 41,
+        title: "FLOOR-42",
+        image: floorImg,
+
+        imageSettings: {
+            svgSize: "0 0 5000 2813",
+            imageWidth: "5000",
+            imageHeight: "2813",
+        },
+        buttonSettings: {
+            fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+        },
+        units: [
+            {
+                id: 4101,
+                name: "Unit No-1",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(255, 215, 0, 0.5)",
+
+                polygonPoints:
+                    "1765,374,1809,374,1814,423,1946,419,1946,374,2211,370,2229,405,2458,410,2454,701,2339,706,2326,843,1981,834,1990,745,1703,745",
+                unitimage: floorunit1,
+                image2D: floorunit2D1,  //2d
+                image2Dstatic: floorunit2D11,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 14'7''", polygon: "720,284,1202,295,1168,793,632,788" },
+                    { id: 2, name: "M.Toilet", size: "7'6'' x 4'6''", polygon: "722,798,1141,796,1123,989,691,986" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1756,262,1756,339,2079,341,2087,270" },
+
+                    { id: 4, name: "Bedroom", size: "10'0'' x 11'6''", polygon: "1215,261,1677,269,1700,653,1189,658" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1146,805,1136,990,1557,990,1555,799" },
+
+                    { id: 6, name: "Passage", size: "5'6'' x 3'3''", polygon: "1311,664,1313,793,1714,801,1708,656" },
+                    { id: 7, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1173,664,1178,788,1300,793,1305,664" },
+
+
+                    { id: 8, name: "Living", size: "10'3'' x 17'6''", polygon: "1695,352,2188,355,2254,829,1716,818" },
+                    { id: 9, name: "Dining", size: "2'6'' x 8'4''", polygon: "1592,805,1586,985,2275,991,2249,824" },
+
+
+                    { id: 10, name: "Kitchen", size: "10'0'' x 7'6''", polygon: "1470,995,2024,997,2048,1355,1472,1350" },
+                    { id: 11, name: "Utility", size: "3'10'' x 5'2'", polygon: "1215,1103,1459,1098,1459,1353,1199,1355" },
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 14'7''", polygon: "871,237,1252,253,1242,786,866,794" },
+                    { id: 2, name: "M.Toilet", size: "7'6'' x 4'6''", polygon: "1223,794,934,797,927,974,1226,979" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1692,145,1692,317,1960,320,1963,147" },
+
+                    { id: 4, name: "Bedroom", size: "10'0'' x 11'6''", polygon: "1263,216,1255,656,1631,651,1629,219" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1231,791,1237,977,1533,977,1533,799" },
+
+                    { id: 6, name: "Passage", size: "5'6'' x 3'3''", polygon: "1348,656,1348,789,1639,789,1634,651" },
+                    { id: 7, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1345,656,1345,791,1242,786,1245,656" },
+
+
+                    { id: 8, name: "Living", size: "10'3'' x 17'6''", polygon: "1642,322,2021,328,2021,789,1642,789" },
+                    { id: 9, name: "Dining", size: "2'6'' x 8'4''", polygon: "1549,789,1547,977,2024,977,2024,791" },
+
+
+                    { id: 10, name: "Kitchen", size: "10'0'' x 7'6''", polygon: "1459,980,1454,1285,1843,1283,1846,975" },
+                    { id: 11, name: "Utility", size: "3'10'' x 5'2'", polygon: "1295,1073,1290,1283,1459,1277,1454,1073" },
+
+                ]
+            },
+
+            {
+                id: 4102,
+                name: "Unit No-2",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(255, 215, 0, 0.5)",
+
+                polygonPoints:
+                    "2458,410,2657,405,2662,370,2732,366,2732,401,2869,405,2869,366,2966,366,2971,410,3095,414,3103,374,3156,379,3196,741,2927,750,2922,834,2573,825,2582,701,2458,701",
+                unitimage: floorunit2,
+                image2D: floorunit2D2,  //2d
+                image2Dstatic: floorunit2D22,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 14'7''", polygon: "1796,287,1814,788,2358,785,2273,295" },
+                    { id: 2, name: "M.Toilet", size: "7'6'' x 4'6''", polygon: "1865,793,1881,992,2299,984,2267,793" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 4'0''", polygon: "911,262,908,347,1231,352,1242,259" },
+
+                    { id: 4, name: "Bedroom", size: "10'0'' x 11'6''", polygon: "1311,264,1785,262,1804,657,1295,654" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1443,792,1443,988,1859,985,1846,802" },
+
+                    { id: 6, name: "Passage", size: "5'6'' x 3'3''", polygon: "1295,654,1287,797,1687,792,1684,659" },
+                    { id: 7, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1687,659,1690,792,1814,792,1814,659" },
+
+
+                    { id: 8, name: "Living", size: "10'3'' x 17'6''", polygon: "813,352,1298,357,1290,845,738,850" },
+                    { id: 9, name: "Dining", size: "2'6'' x 8'4''", polygon: "741,850,720,988,1396,985,1404,839" },
+
+
+                    { id: 10, name: "Kitchen", size: "10'0'' x 7'6''", polygon: "980,991,934,1351,1528,1348,1533,996" },
+                    { id: 11, name: "Utility", size: "3'10'' x 5'2'", polygon: "1533,1104,1533,1343,1788,1343,1783,1104" },
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 14'7''", polygon: "1798,777,2175,785,2167,240,1793,245" },
+                    { id: 2, name: "M.Toilet", size: "7'6'' x 4'6''", polygon: "1817,785,1817,971,2106,958,2106,791" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1348,138,1088,143,1086,302,1348,305" },
+
+                    { id: 4, name: "Bedroom", size: "10'0'' x 11'6''", polygon: "1409,207,1783,217,1783,641,1406,644" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1512,784,1512,970,1806,973,1804,792" },
+
+                    { id: 6, name: "Passage", size: "5'6'' x 3'3''", polygon: "1692,657,1692,781,1406,779,1401,651" },
+                    { id: 7, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1692,653,1692,781,1798,783,1793,656" },
+
+
+                    { id: 8, name: "Living", size: "10'3'' x 17'6''", polygon: "1014,313,1404,318,1401,782,1014,784" },
+                    { id: 9, name: "Dining", size: "2'6'' x 8'4''", polygon: "1494,782,1496,965,1022,970,1022,782" },
+
+
+                    { id: 10, name: "Kitchen", size: "10'0'' x 7'6''", polygon: "1576,978,1576,1269,1202,1269,1199,978" },
+                    { id: 11, name: "Utility", size: "3'10'' x 5'2'", polygon: "1584,1065,1589,1272,1751,1277,1745,1065" },
+
+                ]
+            },
+
+            {
+                id: 4103,
+                name: "Unit No-3",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(236,169,247,0.4)",
+                polygonPoints:
+                    "3148,852,3165,1108,3373,1104,3399,1201,3943,1192,3929,1113,4296,1108,4239,910,4128,910,4097,795,3784,786,3779,839,3638,835,3633,795,3558,790,3563,830,3333,826,3337,861",
+                unitimage: floorunit3,
+                image2D: floorunit2D3,  //2d
+                image2Dstatic: floorunit2D33,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1820,427,2315,422,2413,1005,1857,1010" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "2366,697,2607,705,2686,1010,2424,1008" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "1896,323,1902,421,2207,418,2188,323" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1321,424,1804,424,1836,859,1303,859" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1464,1012,1459,1232,1910,1219,1894,1015" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "913,403,908,496,1247,507,1252,401" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1298,869,1292,1002,1642,1010,1634,872" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1642,878,1637,1008,1849,1013,1843,876" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "805,500,1305,508,1290,1017,733,1009" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "728,1008,693,1231,1435,1231,1438,1008" },
+
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "775,620,728,1004,261,1010,351,612" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "497,463,457,612,738,617,765,463" },
+
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1843,393,2291,393,2297,1088,1846,1098" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "2305,743,2299,1084,2519,1100,2517,748" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "1928,194,1926,377,2204,379,2204,191" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1396,389,1833,394,1836,930,1385,932" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1523,1100,1870,1100,1878,1312,1523,1312" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1335,297,1327,480,1017,480,1017,300" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1380,935,1385,1086,1663,1091,1669,943" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1663,935,1663,1089,1843,1091,1841,935" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "1380,1064,921,1059,934,500,1382,502" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "934,1062,919,1316,1499,1321,1502,1062" },
+
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "555,643,919,641,919,1097,553,1104" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "640,450,640,633,889,633,889,450" },
+
+
+
+
+
+                ]
+            },
+
+            {
+                id: 4104,
+                name: "Unit No-4",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(236,169,247,0.4)",
+
+                polygonPoints:
+                    "3201,1297,3218,1584,3443,1580,3439,1615,3505,1611,3492,1721,3691,1730,3700,1664,4071,1668,4084,1770,4247,1779,4243,1668,4314,1664,4265,1452,4380,1443,4345,1297,3969,1293,3943,1205,3399,1196,3413,1297",
+                unitimage: floorunit4,
+                image2D: floorunit2D4,  //2d
+                image2Dstatic: floorunit2D44,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1833,523,1862,1135,2440,1137,2328,525" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "2336,522,2578,525,2641,811,2387,806" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "1968,1147,1984,1404,2350,1402,2326,1150" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1308,653,1822,656,1857,1136,1292,1136" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1472,351,1472,513,1857,518,1851,359" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "834,1056,805,1287,1205,1292,1218,1059" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1438,524,1433,646,1637,640,1637,524" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1639,520,1830,526,1825,650,1634,640" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "728,1027,1282,1030,1311,577,789,571" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "826,357,794,566,1435,574,1441,359" },
+
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "383,527,290,906,728,901,794,522" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "396,903,349,1073,669,1083,704,911" },
+
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1812,478,1812,1172,2257,1164,2260,478" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "2270,475,2273,811,2464,811,2461,475" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "1896,1183,1894,1376,2169,1374,2167,1183" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1358,632,1798,640,1798,1173,1358,1168" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1494,247,1496,464,1841,462,1846,250" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "972,1075,977,1260,1290,1266,1298,1083" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1345,471,1342,619,1631,624,1634,468" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1634,472,1639,626,1812,626,1812,472" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "900,1060,881,482,1343,477,1343,1060" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "887,243,881,474,1472,471,1470,249" },
+
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "884,919,879,474,526,474,526,927" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "606,1105,606,933,860,930,852,1108" },
+
+
+
+
+                ]
+            },
+
+            {
+                id: 4105,
+                name: "Unit No-5",
+                type: "2BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
+
+                polygonPoints:
+                    "2458,1728,2582,1723,2578,1626,2971,1635,2975,1754,3360,1754,3439,2381,3368,2381,3377,2514,3183,2527,3187,2399,2715,2386,2710,2465,2494,2465,2498,2337,2441,2337",
+                unitimage: floorunit5,
+                image2D: floorunit2D5,  //2d
+                image2Dstatic: floorunit2D55,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1783,580,2331,580,2442,1203,1825,1208" },
+                    { id: 2, name: "M.Toilet", size: "8'6'' x 5'0''", polygon: "1793,389,1804,572,2217,577,2196,389" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 5'0''", polygon: "1984,1214,2010,1521,2389,1524,2342,1206" },
+                    { id: 4, name: "Bedroom", size: "10'4'' x 12'0''", polygon: "1250,712,1783,715,1809,1205,1226,1203" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1404,408,1783,413,1788,564,1406,575" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 5'0''", polygon: "717,1102,672,1410,1083,1412,1104,1110" },
+
+                    { id: 7, name: "Passage", size: "5'6' x 3'3''", polygon: "1366,585,1369,704,1650,702,1658,585" },
+                    { id: 8, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1663,580,1661,710,1793,712,1790,577" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "677,696,1247,707,1223,1099,611,1104" },
+                    { id: 10, name: "Dining", size: "2'6'' x 8'4''", polygon: "722,413,1369,410,1364,704,677,699" },
+
+
+                    { id: 11, name: "Kitchen", size: "10'0'' x 8'6''", polygon: "990,138,1451,135,1449,403,966,413" },
+                    { id: 12, name: "Utility", size: "3'8'' x 5'4'", polygon: "1459,137,1459,310,1645,312,1647,137" },
+                    { id: 13, name: "Entry Foyer", size: "4'5'' x 4'11", polygon: "972,252,964,416,722,411,744,254" },
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "1674,709,1674,1260,2066,1266,2063,709" },
+                    { id: 2, name: "M.Toilet", size: "8'6'' x 5'0''", polygon: "1692,699,1687,516,1981,524,1981,701" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 5'0''", polygon: "1783,1276,1783,1454,2000,1459,1997,1276" },
+                    { id: 4, name: "Bedroom", size: "10'4'' x 12'0''", polygon: "1305,836,1303,1263,1666,1263,1666,839" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1406,529,1677,532,1677,693,1406,693" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1218,1199,961,1191,961,1385,1221,1382,1218,1345" },
+
+                    { id: 7, name: "Passage", size: "5'6' x 3'3''", polygon: "1573,709,1573,823,1369,831,1369,706" },
+                    { id: 8, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1573,704,1573,831,1671,831,1671,709" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "903,722,900,1181,1295,1181,1295,720" },
+                    { id: 10, name: "Dining", size: "2'6'' x 8'4''", polygon: "903,521,1374,526,1377,722,897,720" },
+
+
+                    { id: 11, name: "Kitchen", size: "10'0'' x 8'6''", polygon: "1075,214,1438,211,1433,519,1078,524" },
+                    { id: 12, name: "Utility", size: "3'8'' x 5'4'", polygon: "1438,214,1441,416,1592,413,1589,214" },
+                    { id: 13, name: "Entry Foyer", size: "4'5'' x 4'11", polygon: "1080,524,897,524,897,349,1070,351" },
+
+
+
+
+                ]
+            },
+
+            {
+                id: 4106,
+                name: "Unit No-6",
+                type: "2BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(0, 255, 229, 0.4)",
+
+                polygonPoints:
+                    "2432,2328,2383,2319,2383,2452,2163,2461,2163,2328,1774,2324,1765,2390,1690,2390,1690,2514,1491,2509,1504,2390,1451,2386,1500,1926,1575,1931,1584,1807,1809,1807,1814,1758,1893,1758,1911,1626,2299,1644,2304,1736,2436,1736",
+                unitimage: floorunit6,
+                image2D: floorunit2D6,  //2d
+                image2Dstatic: floorunit2D66,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'10''", polygon: "619,537,502,1160,1131,1171,1176,529" },
+                    { id: 2, name: "M.Toilet", size: "8'0'' x 5'0''", polygon: "767,353,1173,351,1162,531,730,536" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 5'0''", polygon: "616,1178,571,1485,950,1488,969,1172" },
+                    { id: 4, name: "Bedroom", size: "10'4'' x 12'0''", polygon: "1173,666,1141,1164,1730,1162,1714,671" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1178,367,1557,367,1563,534,1168,526" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1851,1066,1870,1374,2275,1374,2249,1069" },
+
+                    { id: 7, name: "Passage", size: "5'6' x 3'3''", polygon: "1300,536,1589,528,1586,666,1308,669" },
+                    { id: 8, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1295,544,1300,664,1170,669,1168,534" },
+                    { id: 9, name: "Living", size: "11'0'' x 18'7''", polygon: "1714,664,2283,664,2350,1066,1745,1066" },
+                    { id: 10, name: "Dining", size: "2'6'' x 8'4''", polygon: "1586,368,1594,657,2281,647,2238,371" },
+
+
+                    { id: 11, name: "Kitchen", size: "10'0'' x 8'6''", polygon: "1496,92,1502,363,2002,365,1968,87" },
+                    { id: 12, name: "Utility", size: "3'8'' x 5'4'", polygon: "1305,90,1499,95,1499,270,1298,272" },
+                    { id: 13, name: "Entry Foyer", size: "4'5'' x 4'11", polygon: "2000,214,2024,368,2228,368,2204,219" },
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'10''", polygon: "850,622,1234,622,1239,1179,847,1184" },
+                    { id: 2, name: "M.Toilet", size: "8'0'' x 5'0''", polygon: "934,437,934,614,1226,612,1229,429" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 5'0''", polygon: "916,1189,919,1375,1125,1369,1125,1189" },
+                    { id: 4, name: "Bedroom", size: "10'4'' x 12'0''", polygon: "1258,749,1250,1181,1608,1179,1610,744" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1239,442,1239,609,1507,609,1510,442" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1700,1099,1695,1290,1947,1290,1947,1104" },
+
+                    { id: 7, name: "Passage", size: "5'6' x 3'3''", polygon: "1337,620,1337,736,1533,739,1533,620" },
+                    { id: 8, name: "Walk-through Area", size: "2'6'' x 3'3''", polygon: "1237,620,1237,739,1335,741,1335,617" },
+                    { id: 9, name: "Living", size: "11'0'' x 18'7''", polygon: "1621,633,1618,1099,2016,1097,2016,635" },
+                    { id: 10, name: "Dining", size: "2'6'' x 8'4''", polygon: "1539,445,2010,439,2010,633,1539,633" },
+
+
+                    { id: 11, name: "Kitchen", size: "10'0'' x 8'6''", polygon: "1486,127,1486,431,1838,437,1841,127" },
+                    { id: 12, name: "Utility", size: "3'8'' x 5'4'", polygon: "1475,132,1335,129,1327,323,1475,323" },
+                    { id: 13, name: "Entry Foyer", size: "4'5'' x 4'11", polygon: "1843,267,1843,437,2013,439,2018,267" },
+
+
+
+
+                ]
+            },
+
+            {
+                id: 4107,
+                name: "Unit No-7",
+                type: "2 BHK",
+                size: "1400 sq.ft",
+                hoverColor: "rgba(236,169,247,0.4)",
+
+                polygonPoints:
+                    "1668,1577,1708,1290,1478,1290,1504,1206,837,1198,824,1282,542,1286,475,1520,612,1516,568,1648,643,1661,648,1772,811,1758,802,1670,1155,1657,1169,1569,1217,1573,1200,1719,1376,1723,1381,1608,1443,1613,1443,1577",
+                unitimage: floorunit7,
+                image2D: floorunit2D7,  //2d
+                image2Dstatic: floorunit2D77,   //2d static
+
+                rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "601,520,1104,525,1056,1140,495,1137" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "351,523,593,528,540,806,290,809" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "606,1147,577,1402,948,1399,956,1150" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1107,649,1621,647,1634,1137,1075,1137" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1083,352,1464,352,1462,517,1062,517" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1703,1040,1724,1289,2119,1284,2095,1042" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1300,525,1303,641,1486,647,1491,522" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1104,523,1099,642,1311,647,1305,517" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "1623,646,2148,635,2201,1038,1647,1035" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "2114,350,2143,642,1486,642,1486,353" },
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "2132,517,2193,906,2646,901,2554,522" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "2225,903,2540,903,2580,1083,2260,1091" },
+
+
+
+
+                ],
+                roomstatic: [
+                    { id: 1, name: "Master Bedroom", size: "10'3'' x 15'10''", polygon: "738,406,744,1106,1194,1103,1194,411" },
+                    { id: 2, name: "M.Toilet", size: "4'6'' x 7'6''", polygon: "526,406,736,406,738,745,524,740" },
+
+                    { id: 3, name: "Balcony", size: "6'0'' x 4'0''", polygon: "834,1115,1104,1115,1101,1306,831,1309" },
+                    { id: 4, name: "Bedroom", size: "10'0'' x 12'0''", polygon: "1207,571,1199,1101,1653,1109,1653,566" },
+                    { id: 5, name: "Toilet", size: "7'6'' x 4'8''", polygon: "1170,184,1162,396,1504,391,1510,179" },
+                    { id: 6, name: "Balcony", size: "7'0'' x 4'0''", polygon: "1711,1009,1711,1189,2024,1192,2021,1009" },
+
+                    { id: 7, name: "Passage", size: "3'10' x 3'3''", polygon: "1372,402,1374,553,1555,556,1552,408" },
+                    { id: 8, name: "Walk-through Area", size: "3'10'' x 3'3''", polygon: "1366,404,1364,555,1199,555,1199,399" },
+                    { id: 9, name: "Living", size: "10'3'' x 18'7''", polygon: "1663,437,1661,993,2108,993,2119,434" },
+                    { id: 10, name: "Dining", size: "2'9'' x 8'6''", polygon: "1536,177,2116,177,2122,429,1539,431" },
+
+
+                    { id: 11, name: "Kitchen", size: "8'0'' x 10'0''", polygon: "2119,410,2122,855,2480,853,2477,405" },
+                    { id: 12, name: "Utility", size: "5'5'' x 3'10'", polygon: "2154,864,2154,1044,2392,1039,2397,867" },
+
+
+
+
+                ]
+            },
+
+            {
+                id: 4108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16303,7 +16757,6 @@ export const floors = [
         ],
     },
 
-
     // type-2 refuge -8
 
     {
@@ -16317,11 +16770,9 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
@@ -16623,7 +17074,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -16814,15 +17265,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 1201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16880,7 +17329,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 1202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16938,7 +17387,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 1203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17000,7 +17449,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 1204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17118,9 +17567,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 1206,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -17178,7 +17627,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 1207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17238,7 +17687,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 1208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17311,15 +17760,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 1701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17377,7 +17824,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 1702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17435,7 +17882,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 1703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17497,7 +17944,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 1704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17615,9 +18062,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 1706,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -17675,7 +18122,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 1707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17735,7 +18182,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 1708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17808,15 +18255,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 2201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17874,7 +18319,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 2202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17932,7 +18377,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 2203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17994,7 +18439,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 2204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18112,9 +18557,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 2206,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -18172,7 +18617,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 2207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18232,7 +18677,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 2208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18306,15 +18751,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 2701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18372,7 +18815,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 2702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18430,7 +18873,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 2703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18492,7 +18935,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 2704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18610,9 +19053,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 2706,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -18670,7 +19113,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 2707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18730,7 +19173,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 2708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18803,15 +19246,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 3201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18869,7 +19310,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 3202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18927,7 +19368,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 3203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18989,7 +19430,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 3204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19107,9 +19548,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 3206,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -19167,7 +19608,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 3207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19227,7 +19668,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 3208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19300,15 +19741,13 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
         },
         units: [
             {
-                id: 701,
+                id: 3701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19366,7 +19805,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 3702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19424,7 +19863,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 3703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19486,7 +19925,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 3704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19604,9 +20043,9 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 3706,
                 name: "Unit No-6",
-                type: "2 BHK",
+                type: "2BHK",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -19664,7 +20103,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 3707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19724,7 +20163,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 3708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",

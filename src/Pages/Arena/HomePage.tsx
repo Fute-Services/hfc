@@ -12,7 +12,8 @@ export default function HomePage() {
             <iframe
                 // src="pano/pano_new_arena/index.html"
                 // src="https://futeservices.com/demo/arena%20360%20pano/index.html"
-                src="https://futeservices.com/25-26/Arena%20Jan26/index.html"
+                // src="https://futeservices.com/25-26/Arena%20Jan26/index.html"
+                src="https://futeservices.com/26-27/Hiranadani/Arena/index.html"
 
                 // className="w-full h-full border-0"
              className="w-full flex-1 border-0 h-full lg:h-full md:h-[calc(100vh-4px)] border-0 "

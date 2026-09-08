@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import masterPlan from '../../assets/MASTERPLAN-5.png';
+import masterPlan from '../../assets/MASTERPLAN-55.png';
 import WithoutbgHeader from '../../components/WithoutbgHeader';
 import Tooltip from '@mui/material/Tooltip';
 
@@ -114,7 +114,7 @@ export default function ProjectDetails() {
                     <image href={masterPlan} x="0" y="0" width="3194" height="2250" />
 
                     {/* Polygons */}
-                    {data.map((e) => (
+                    {data.filter((e) => e.id !== 8).map((e) => (
                         <Tooltip
                             key={e.id}
                             title={e.name}
