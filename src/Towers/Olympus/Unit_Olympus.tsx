@@ -30,6 +30,14 @@ export default function Unit_Olympus() {
         size: string;
     } | null>(null);
 
+    // Must run before any early return: hooks have to be called in the same order on every render.
+    useEffect(() => {
+        setSvgTooltip(null);
+        setClickedRoomDefault(null);
+        setClickedRoom2D(null);
+        setHoveredRoom(null);
+    }, [activeLayout]);
+
     // fallback if unit not found
     if (!singleUnit) {
         return (
@@ -46,13 +54,6 @@ export default function Unit_Olympus() {
             </div>
         );
     }
-
-    useEffect(() => {
-        setSvgTooltip(null);
-        setClickedRoomDefault(null);
-        setClickedRoom2D(null);
-        setHoveredRoom(null);
-    }, [activeLayout]);
 
     const getActiveImage = () => {
         if (activeLayout === "2D") return singleUnit.image2D;

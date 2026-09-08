@@ -21,7 +21,6 @@ export default function Floor_Stadia() {
     const [zoomOpen, setZoomOpen] = useState(false);
     const [image3DOpen, setImage3DOpen] = useState(false);
 
-    console.log("singleFloor", singleFloor)
     if (!singleFloor) {
         return (
             <div className="flex flex-col items-center justify-center h-screen bg-[#5d5c61] text-center p-6">
@@ -172,11 +171,12 @@ export default function Floor_Stadia() {
                                     // Toggle selection: if already selected, close it; otherwise, select new.
                                     setHoveredUnit(null);
                                 }}
-                                // onClick={(e) => {
-                                //     e.stopPropagation();
-                                //     // Toggle selection: if already selected, close it; otherwise, select new.
-                                //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                                // }}
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    // First tap selects and shows the tooltip; tapping the selected unit opens it.
+                                    if (selectedUnit === unit.id) { navigate(`/arena_unitstadia/${unit.id}`); return; }
+                                    setSelectedUnit(unit.id);
+                                }}
                                 onDoubleClick={() => navigate(`/arena_unitstadia/${unit.id}`)}
                             />
                         </Tooltip>

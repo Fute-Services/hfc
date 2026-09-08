@@ -228,6 +228,9 @@ export default function GalleryPage() {
   //   thumbsRef.current[idx] = el;
   // };
 
+  // Guaranteed-valid current image: protects the render from any out-of-range index.
+  const current = images[currentIndex] ?? images[0];
+
   const handleBack = () => {
     window.history.back();
   }
@@ -286,9 +289,9 @@ export default function GalleryPage() {
           )} */}
           {images.length > 0 && (
             <img
-              key={images[currentIndex].src} // IMPORTANT: The 'key' triggers the animation on every click
-              src={images[currentIndex].src}
-              alt={images[currentIndex].title}
+              key={current.src} // IMPORTANT: The 'key' triggers the animation on every click
+              src={current.src}
+              alt={current.title}
               loading="lazy"
               onClick={() => setLightboxOpen(true)}
               className="object-contain h-full cursor-zoom-in transition-opacity duration-1000 animate-in fade-in"
@@ -298,7 +301,7 @@ export default function GalleryPage() {
 
           {/* Show ONLY the title for the current image */}
           <div className="absolute bottom-2 z-[2000] px-4 py-1 rounded-full bg-black/30 backdrop-blur-md shadow">
-            <p className="text-white text-sm">{images[currentIndex].title}</p>
+            <p className="text-white text-sm">{current.title}</p>
           </div>
           {/* -------------------------------------- */}
 
@@ -307,7 +310,8 @@ export default function GalleryPage() {
           <div className="absolute bottom-10  bg-white/10 backdrop-blur-md rounded-full px-10 py-3 shadow-black rounded-full shadow-lg">
             {/* Back Button */}
             <button
-              onClick={() => setCurrentIndex((prev) => (prev - 1) % images.length)}
+              onClick={() => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)}
+              aria-label="Previous image"
 
               className="text-white text-3xl hover:scale-110 transition"
             >
@@ -317,15 +321,17 @@ export default function GalleryPage() {
             {/* Next Button */}
             <button
               onClick={() => setPaused(!paused)}
+              aria-label={paused ? "Play slideshow" : "Pause slideshow"}
 
 
               className="text-white text-2xl mx-3 hover:scale-110 transition"
             >
-              {paused ? <MdPause /> : <MdPlayArrow />}
+              {paused ? <MdPlayArrow /> : <MdPause />}
             </button>
             {/* PAUSE / PLAY BUTTON */}
             <button
               onClick={() => setCurrentIndex((prev) => (prev + 1) % images.length)}
+              aria-label="Next image"
 
               className="text-white text-3xl hover:scale-110 transition"
             >
@@ -379,10 +385,10 @@ export default function GalleryPage() {
         lightboxOpen && images.length > 0 && (
           <div className="fade-in-lightbox">
             <Lightbox
-              mainSrc={images[currentIndex].src}
+              mainSrc={current.src}
               nextSrc={images[(currentIndex + 1) % images.length].src}
               prevSrc={images[(currentIndex - 1 + images.length) % images.length].src}
-              imageTitle={images[currentIndex].title}
+              imageTitle={current.title}
               onCloseRequest={() => setLightboxOpen(false)}
               onMovePrevRequest={() =>
                 setCurrentIndex((currentIndex - 1 + images.length) % images.length)

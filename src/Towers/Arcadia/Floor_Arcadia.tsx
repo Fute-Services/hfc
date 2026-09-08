@@ -19,7 +19,6 @@ export default function Floor_Arcadia() {
     const [zoomOpen, setZoomOpen] = useState(false);
     // const [image3DOpen, setImage3DOpen] = useState(false);
 
-    console.log("singleFloor", singleFloor)
     if (!singleFloor) {
         return (
             <div className="flex flex-col items-center justify-center h-screen bg-[#5d5c61] text-center p-6">
@@ -128,7 +127,13 @@ export default function Floor_Arcadia() {
                                 style={{ cursor: "pointer" }}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                onClick={() => navigate(`/arena_unitarcadia/${unit.id}`)}
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    // First tap selects and shows the tooltip; tapping the selected unit opens it.
+                                    if (selectedUnit === unit.id) { navigate(`/arena_unitarcadia/${unit.id}`); return; }
+                                    setSelectedUnit(unit.id);
+                                }}
+                                onDoubleClick={() => navigate(`/arena_unitarcadia/${unit.id}`)}
                             />
                         </Tooltip>
                     ))}

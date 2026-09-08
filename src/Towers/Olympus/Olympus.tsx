@@ -142,8 +142,9 @@ export default function Olympus() {
         })}
       </svg>
 
-      {floorsData.map((floor: any, _index) => {
+      {floorsData.map((floor: any) => {
         return (<Tooltip
+          key={`tooltip-${floor.id}`}
           id={`tooltip-${floor.id}`}
           place="left"
           content={floor.name}

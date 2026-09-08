@@ -122,11 +122,11 @@ export default function MasterPlanPage() {
                     <image href={masterPlan} x="0" y="0" width="3194" height="2250" />
 
                     {/* Circle markers */}
-                    {amenities.map((item) => {
+                    {amenities.map((item, markerIndex) => {
                         const [cx, cy] = item.coords.split(",").map(Number);
 
                         return (
-                            <g key={item.id}>
+                            <g key={`${item.id}-${markerIndex}`}>
                                 <Tooltip
                                     title={item.title}
                                     placement="top"

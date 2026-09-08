@@ -101,7 +101,12 @@ export default function Floor_Athletica() {
                                 style={{ cursor: "pointer" }}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                // onClick={() => navigate(`/arena_unitatheletica/${unit.id}`)}
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    // First tap selects and shows the tooltip; tapping the selected unit opens it.
+                                    if (selectedUnit === unit.id) { navigate(`/arena_unitatheletica/${unit.id}`); return; }
+                                    setSelectedUnit(unit.id);
+                                }}
                                 onDoubleClick={() => navigate(`/arena_unitatheletica/${unit.id}`)}
                             />
                         </Tooltip>))}

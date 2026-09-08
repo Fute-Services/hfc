@@ -48,7 +48,7 @@ export default function ClubHouse() {
             ]
         },
         {
-            id: 3, title: "Outdoor", list: [
+            id: 4, title: "Outdoor", list: [
                 "Swimming Pool (Half Olympic Size) ",
                 "Pool Lounge Deck",
                 "Wet Lounge",

@@ -48,7 +48,6 @@ export default function GoldenWillowsLayout() {
                             <div className='py-[4px] bg-gradient-to-r bg-white/10  text-black/85 font-medium px-4 '>{item.heading}</div>
 
                             <div
-                                key={item.id}
                                 onMouseEnter={() => setHoveredId(item.id)}
                                 onMouseLeave={() => setHoveredId(null)}
                                 onClick={() => setSelectedId(item.id)}
@@ -79,9 +78,9 @@ export default function GoldenWillowsLayout() {
 
                     <image href={image} x="0" y="0" width="3592" height="3592" />
 
-                    {data.map((item) => {
+                    {data.map((item, markerIndex) => {
 
-                        return (<g key={item.id}>
+                        return (<g key={`${item.id}-${markerIndex}`}>
                             <Tooltip title={item.title} placement='top'
                                 open={selectedId === item.id}
 

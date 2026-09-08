@@ -70,12 +70,13 @@ function App() {
 
   const showNavbarPages = ["/arena", "/arena_projecthighlights",
      "/arena_location", "/arena_master-plan", "/arena_project_details",
-    "/arena_pavilion",  "/arena_citatel", "/arena_arcadia", 
+    "/arena_gallery", "/project_status",
+    "/arena_pavilion",  "/arena_citatel", "/arena_arcadia",
     "/arena_atheletica","/arena_greenfield","/arena_grandstand","/arena_stadia","/arena_olympus"];
 
   const shouldShowNavbar = showNavbarPages.includes(location.pathname);
 
-  const showNavbarGoldenWillows = ["/goldenwillows", "/golden_projecthighlights", "/golden_location", "/project_status_golden","/projectdetails_golden"];
+  const showNavbarGoldenWillows = ["/goldenwillows", "/golden_projecthighlights", "/golden_location", "/project_status_golden","/projectdetails_golden","/goldenwillowslayout","/gallery_golden"];
 
   const GoldenWillowsNav = showNavbarGoldenWillows.includes(location.pathname);
 

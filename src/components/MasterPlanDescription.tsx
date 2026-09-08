@@ -2,7 +2,7 @@ export default function MasterPlanDescription() {
 
     return (<>
 
-        <div className='absolute top-10 right-0 hidden lg:bloack'>
+        <div className='absolute top-10 right-0 hidden lg:block'>
             <div className='p-1'>
                 <button className='font-bold bg-gradient-to-r mb-4 rounded-sm px-16 py-2 text-white from-[#e6a524] to-[#696a68]'>
                     MASTER PLAN
