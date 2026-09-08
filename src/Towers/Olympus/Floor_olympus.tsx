@@ -278,7 +278,7 @@ export default function Floor_Olympus() {
                         <CloseIcon />
                     </IconButton>
                     <img
-                        src={(singleFloor as any).image1}
+                        src={singleFloor.image}
                         alt={`Floor ${singleFloor.id}`}
                         className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg"
                     />

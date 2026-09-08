@@ -9,10 +9,12 @@ export default function Header() {
           <div className="flex  justify-between w-full">
             <div className="w-1/2 justify-start flex">
     
-              <Link to="/"><img src="/logo1.png" className="w-48 h-[47px] object-contain rounded-lg" /></Link>
+              <Link to="/"><img src="/logo1.png"
+                alt="Hiranandani Fortune City, Panvel" className="w-48 h-[47px] object-contain rounded-lg" /></Link>
             </div>
             <div className="w-1/2 justify-end flex">
-              <img src="/logo2.png" className="w-40 h-[47px] object-contain rounded-lg" />
+              <img src="/logo2.png"
+                alt="Hiranandani Communities" className="w-40 h-[47px] object-contain rounded-lg" />
             </div>
           </div>
     </header>

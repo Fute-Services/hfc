@@ -10,8 +10,9 @@ import 'react-18-image-lightbox/style.css';
 // ---------- Types ----------
 interface ImageType {
   src: string;
+  /** 320px strip thumbnail; the full-size render is megabytes. */
+  thumb?: string;
   title?: string;
-
 }
 
 // ---------- Replace these imports with your actual images ----------
@@ -52,19 +53,16 @@ import exteriortwr4 from "../../assets/gallery/exteriortwr4.webp";
 import exteriortwr5 from "../../assets/gallery/exteriortwr5.webp";
 import exteriortwr6 from "../../assets/gallery/exteriortwr6.webp";
 import exteriortwr7 from "../../assets/gallery/exteriortwr7.webp";
-import exteriortwr8 from '../../assets/entrance_tower/gallery_new/Cam_01_Building_facade.png';
-import exteriortwr9 from '../../assets/entrance_tower/gallery_new/Cam01_Grandstand_worm_eye.png';
-import exteriortwr10 from '../../assets/entrance_tower/gallery_new/Cam02_Grandstand_close_up.png';
-import exteriortwr11 from '../../assets/entrance_tower/gallery_new/Cam02_Night_Close-up.png'
+import exteriortwr8 from '../../assets/entrance_tower/gallery_new/Cam_01_Building_facade.webp';
+import exteriortwr9 from '../../assets/entrance_tower/gallery_new/Cam01_Grandstand_worm_eye.webp';
+import exteriortwr10 from '../../assets/entrance_tower/gallery_new/Cam02_Grandstand_close_up.webp';
+import exteriortwr11 from '../../assets/entrance_tower/gallery_new/Cam02_Night_Close-up.webp'
 // import exteriortwr12 from '../../assets/entrance_tower/Grandstand_interface.jpg';
 // import exteriortwr13 from '../../assets/entrance_tower/Atheletica_interface.jpg';
 // import exteriortwr14 from '../../assets/entrance_tower/Pavilion_interface.jpg';
 
 
 import exterior12 from '../../assets/gallery/Stadia Elevation Cam.webp';
-import exterior13 from '../../assets/gallery/Olympus Elevation.webp'
-import exterior14 from '../../assets/gallery/OLYMPUS11.webp'
-import exterior15 from '../../assets/gallery/Olympus111.webp'
 import exterior16 from '../../assets/gallery/Stadia22.webp'
 import exterior17 from '../../assets/gallery/STADIA222.webp'
 
@@ -76,14 +74,60 @@ import sports4 from "../../assets/gallery/sports4.webp";
 import sports5 from "../../assets/gallery/sports5.webp";
 import sports6 from "../../assets/gallery/sports6.webp";
 import sports7 from "../../assets/gallery/sports7.webp";
+
+// 320px thumbnails for the strip — the full-size renders are megabytes each
+import interior1_t from "../../assets/gallery/thumbs/interior1.webp";
+import interior2_t from "../../assets/gallery/thumbs/interior2.webp";
+import interior3_t from "../../assets/gallery/thumbs/interior3.webp";
+import interior4_t from "../../assets/gallery/thumbs/interior4.webp";
+import interior5_t from "../../assets/gallery/thumbs/interior5.webp";
+import interior6_t from "../../assets/gallery/thumbs/interior6.webp";
+import interior7_t from "../../assets/gallery/thumbs/interior7.webp";
+import interior8_t from "../../assets/gallery/thumbs/interior8.webp";
+import interior9_t from "../../assets/gallery/thumbs/interior9.webp";
+import interior10_t from "../../assets/gallery/thumbs/interior10.webp";
+import interior11_t from "../../assets/gallery/thumbs/interior11.webp";
+import interior12_t from "../../assets/gallery/thumbs/interior12.webp";
+import interior13_t from "../../assets/gallery/thumbs/interior13.webp";
+import interior14_t from "../../assets/gallery/thumbs/interior14.webp";
+import interior15_t from "../../assets/gallery/thumbs/interior15.webp";
+import interior16_t from "../../assets/gallery/thumbs/interior16.webp";
+import interior17_t from "../../assets/gallery/thumbs/interior17.webp";
+import exterior1_t from "../../assets/gallery/thumbs/exterior1.webp";
+import exterior2_t from "../../assets/gallery/thumbs/exterior2.webp";
+import exterior3_t from "../../assets/gallery/thumbs/exterior3.webp";
+import exterior4_t from "../../assets/gallery/thumbs/exterior4.webp";
+import exterior5_t from "../../assets/gallery/thumbs/exterior5.webp";
+import exterior6_t from "../../assets/gallery/thumbs/exterior6.webp";
+import exterior7_t from "../../assets/gallery/thumbs/exterior7.webp";
+import exterior8_t from "../../assets/gallery/thumbs/exterior8.webp";
+import exterior9_t from "../../assets/gallery/thumbs/exterior9.webp";
+import exterior10_t from "../../assets/gallery/thumbs/exterior10.webp";
+import exterior11_t from "../../assets/gallery/thumbs/exterior11.webp";
+import exteriortwr1_t from "../../assets/gallery/thumbs/exteriortwr1.webp";
+import exteriortwr2_t from "../../assets/gallery/thumbs/exteriortwr2.webp";
+import exteriortwr3_t from "../../assets/gallery/thumbs/exteriortwr3.webp";
+import exteriortwr4_t from "../../assets/gallery/thumbs/exteriortwr4.webp";
+import exteriortwr5_t from "../../assets/gallery/thumbs/exteriortwr5.webp";
+import exteriortwr6_t from "../../assets/gallery/thumbs/exteriortwr6.webp";
+import exteriortwr7_t from "../../assets/gallery/thumbs/exteriortwr7.webp";
+import exteriortwr8_t from "../../assets/gallery/thumbs/exteriortwr8.webp";
+import exteriortwr9_t from "../../assets/gallery/thumbs/exteriortwr9.webp";
+import exteriortwr10_t from "../../assets/gallery/thumbs/exteriortwr10.webp";
+import exteriortwr11_t from "../../assets/gallery/thumbs/exteriortwr11.webp";
+import exterior12_t from "../../assets/gallery/thumbs/exterior12.webp";
+import exterior16_t from "../../assets/gallery/thumbs/exterior16.webp";
+import exterior17_t from "../../assets/gallery/thumbs/exterior17.webp";
+import sports1_t from "../../assets/gallery/thumbs/sports1.webp";
+import sports2_t from "../../assets/gallery/thumbs/sports2.webp";
+import sports3_t from "../../assets/gallery/thumbs/sports3.webp";
+import sports4_t from "../../assets/gallery/thumbs/sports4.webp";
+import sports5_t from "../../assets/gallery/thumbs/sports5.webp";
+import sports6_t from "../../assets/gallery/thumbs/sports6.webp";
+import sports7_t from "../../assets/gallery/thumbs/sports7.webp";
 import { MdNavigateBefore, MdNavigateNext, MdPause, MdPlayArrow } from "react-icons/md";
 
 
-declare const InteriorImages: ImageType[];
-declare const ElevationImages: ImageType[];
-declare const LandscapeImages: ImageType[];
-declare const gallery9: string;
-declare const back: string;
 // ---------------------------------------------------------------
 const tabs = ["Interior", "Elevation", "Landscape"] as const;
 
@@ -94,77 +138,68 @@ export default function GalleryPage() {
 
 
 
-  const InteriorImages = [
-    { src: interior1, title: '2BHK Guest Bedroom' },
-    { src: interior2, title: '2BHK Living' },
-    { src: interior3, title: '2BHK Master Bedroom' },
-    { src: interior4, title: '3BHK Balcony' },
-    { src: interior5, title: '3BHK Guest Bedroom' },
-    { src: interior6, title: '3BHK Kids Bedroom' },
-    { src: interior7, title: '3BHK Kitchen' },
-    { src: interior8, title: '3BHK Living & Dining' },
-    { src: interior9, title: '3BHK Master Bedroom' },
-    { src: interior10, title: '4BHK Bathroom' },
-    { src: interior11, title: '4BHK Dining' },
-    { src: interior12, title: '4BHK Guest Bedroom' },
-    { src: interior13, title: '4BHK Kids Bedroom' },
-    { src: interior14, title: '4BHK Living & Dining' },
-    { src: interior15, title: '4BHK Master Bedroom' },
-    { src: interior16, title: '4BHK Study Room' },
-    { src: interior7, title: '3BHK Kitchen' },
-    { src: interior8, title: '3BHK Living & Dining' },
-    { src: interior9, title: '3BHK Master Bedroom' },
-    { src: interior17, title: 'Citadel Lobby' },
+  const InteriorImages: ImageType[] = [
+    { src: interior1, thumb: interior1_t, title: '2BHK Guest Bedroom' },
+    { src: interior2, thumb: interior2_t, title: '2BHK Living' },
+    { src: interior3, thumb: interior3_t, title: '2BHK Master Bedroom' },
+    { src: interior4, thumb: interior4_t, title: '3BHK Balcony' },
+    { src: interior5, thumb: interior5_t, title: '3BHK Guest Bedroom' },
+    { src: interior6, thumb: interior6_t, title: '3BHK Kids Bedroom' },
+    { src: interior7, thumb: interior7_t, title: '3BHK Kitchen' },
+    { src: interior8, thumb: interior8_t, title: '3BHK Living & Dining' },
+    { src: interior9, thumb: interior9_t, title: '3BHK Master Bedroom' },
+    { src: interior10, thumb: interior10_t, title: '4BHK Bathroom' },
+    { src: interior11, thumb: interior11_t, title: '4BHK Dining' },
+    { src: interior12, thumb: interior12_t, title: '4BHK Guest Bedroom' },
+    { src: interior13, thumb: interior13_t, title: '4BHK Kids Bedroom' },
+    { src: interior14, thumb: interior14_t, title: '4BHK Living & Dining' },
+    { src: interior15, thumb: interior15_t, title: '4BHK Master Bedroom' },
+    { src: interior16, thumb: interior16_t, title: '4BHK Study Room' },
+    { src: interior17, thumb: interior17_t, title: 'Citadel Lobby' },
   ];
 
-  const ElevationImages = [
-    { src: exteriortwr1, title: 'Greenfield Tower' },
-    { src: exteriortwr2, title: 'Greenfield Tower' },
-    { src: exteriortwr3, title: 'Greenfield Tower' },
-    { src: exteriortwr4, title: 'Citadel Tower' },
-    { src: exteriortwr5, title: 'Citadel Tower' },
-    { src: exteriortwr6, title: 'Arcadia Tower' },
-    { src: exteriortwr7, title: 'Arcadia Tower' },
-    { src: exteriortwr1, title: 'Greenfield Tower' },
-    { src: exteriortwr2, title: 'Greenfield Tower' },
-    { src: exteriortwr3, title: 'Greenfield Tower' },
-    { src: exteriortwr4, title: 'Citadel Tower' },
-    { src: exteriortwr5, title: 'Citadel Tower' },
-    { src: exteriortwr6, title: 'Arcadia Tower' },
-    { src: exteriortwr8, title: 'Pavilion Tower' },
-    { src: exteriortwr9, title: 'Grandstand Tower' },
-    { src: exteriortwr10, title: 'Grandstand Tower' },
-    { src: exteriortwr11, title: 'Grandstand Tower' },
-    { src: exterior12, title: 'Stadia Tower' },
-    { src: exterior16, title: 'Stadia Tower' },
-    { src: exterior17, title: 'Stadia Tower' },
-    // { src: exterior13, title: 'Olympus Tower' },
-    // { src: exterior14, title: 'Olympus Tower' },
-    // { src: exterior15, title: 'Olympus Tower' },
+  // Note: three Olympus elevation renders exist in src/assets/gallery
+  // (Olympus Elevation.webp, OLYMPUS11.webp, Olympus111.webp) but have never
+  // been listed here. Add them if Olympus should appear in this tab.
+  const ElevationImages: ImageType[] = [
+    { src: exteriortwr1, thumb: exteriortwr1_t, title: 'Greenfield Tower' },
+    { src: exteriortwr2, thumb: exteriortwr2_t, title: 'Greenfield Tower' },
+    { src: exteriortwr3, thumb: exteriortwr3_t, title: 'Greenfield Tower' },
+    { src: exteriortwr4, thumb: exteriortwr4_t, title: 'Citadel Tower' },
+    { src: exteriortwr5, thumb: exteriortwr5_t, title: 'Citadel Tower' },
+    { src: exteriortwr6, thumb: exteriortwr6_t, title: 'Arcadia Tower' },
+    { src: exteriortwr7, thumb: exteriortwr7_t, title: 'Arcadia Tower' },
+    { src: exteriortwr8, thumb: exteriortwr8_t, title: 'Pavilion Tower' },
+    { src: exteriortwr9, thumb: exteriortwr9_t, title: 'Grandstand Tower' },
+    { src: exteriortwr10, thumb: exteriortwr10_t, title: 'Grandstand Tower' },
+    { src: exteriortwr11, thumb: exteriortwr11_t, title: 'Grandstand Tower' },
+    { src: exterior12, thumb: exterior12_t, title: 'Stadia Tower' },
+    { src: exterior16, thumb: exterior16_t, title: 'Stadia Tower' },
+    { src: exterior17, thumb: exterior17_t, title: 'Stadia Tower' },
 
     //  { src: exteriortwr13, title: 'Atheletica Tower' },
     // { src: exteriortwr14, title: 'Pavilion Tower' },
   ];
 
-  const LandscapeImages = [
-    { src: sports1, title: 'Archery Zone' },
-    { src: sports2, title: 'Badminton Court' },
-    { src: sports3, title: 'Basketball Court' },
-    { src: sports4, title: 'Mini Golf Course' },
-    { src: sports5, title: 'Padel & Pickle Ball Court' },
-    { src: sports6, title: 'Tennis Court' },
-    { src: sports7, title: 'Volleyball Court' },
-    { src: exterior3, title: 'Leisure Garden' },
-    { src: exterior4, title: 'Cricket' },
-    { src: exterior6, title: 'Skate Park' },
-    { src: exterior10, title: 'Pool View' },
-    { src: exterior1, title: 'Aerial View from River Side' },
-    { src: exterior2, title: 'Central Landscape' },
-    { src: exterior5, title: 'Pool View' },
-    { src: exterior7, title: 'Sprint Track' },
-    { src: exterior8, title: 'Play and Learning Garden' },
-    { src: exterior9, title: 'Pool View ' },
-    { src: exterior11, title: 'Wellness and Therapy Garden' },
+  const LandscapeImages: ImageType[] = [
+    { src: sports1, thumb: sports1_t, title: 'Archery Zone' },
+    { src: sports2, thumb: sports2_t, title: 'Badminton Court' },
+    { src: sports3, thumb: sports3_t, title: 'Basketball Court' },
+    { src: sports4, thumb: sports4_t, title: 'Mini Golf Course' },
+    { src: sports5, thumb: sports5_t, title: 'Padel & Pickle Ball Court' },
+    { src: sports6, thumb: sports6_t, title: 'Tennis Court' },
+    { src: sports7, thumb: sports7_t, title: 'Volleyball Court' },
+    { src: exterior3, thumb: exterior3_t, title: 'Leisure Garden' },
+    { src: exterior4, thumb: exterior4_t, title: 'Cricket' },
+    { src: exterior6, thumb: exterior6_t, title: 'Skate Park' },
+    { src: exterior10, thumb: exterior10_t, title: 'Pool View' },
+    { src: exterior1, thumb: exterior1_t, title: 'Aerial View from River Side' },
+    { src: exterior2, thumb: exterior2_t, title: 'Central Landscape' },
+    { src: exterior5, thumb: exterior5_t, title: 'Pool View' },
+    { src: exterior7, thumb: exterior7_t, title: 'Sprint Track' },
+    { src: exterior8, thumb: exterior8_t, title: 'Play and Learning Garden' },
+    { src: exterior9, thumb: exterior9_t, title: 'Pool View ' },
+    { src: exterior11, thumb: exterior11_t, title: 'Wellness and Therapy Garden' },
   ];
 
 
@@ -365,9 +400,12 @@ export default function GalleryPage() {
               }}
             >
               <img
-                src={img.src}
+                src={img.thumb ?? img.src}
                 alt={img.title}
                 loading="lazy"
+                decoding="async"
+                width={96}
+                height={96}
                 className={`w-24 h-24 object-cover rounded border-2 transition-all duration-500 ease-in-out
             ${idx === currentIndex
                     ? "border-yellow-500 scale-105"

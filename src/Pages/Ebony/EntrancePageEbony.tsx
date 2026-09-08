@@ -11,8 +11,8 @@ export default function EntrancePageEbony() {
             <WithoutbgHeader />
             <div className="relative w-screen h-screen">
                 <iframe
-                    src="pano/pano3/index.html"
-                    className="w-full h-full border-0 pointer-events-none" // prevents iframe from blocking clicks
+                    src="https://futeservices.com/26-27/Hiranadani/Ebony/index.html"
+                    className="w-full h-full border-0"
                     title="Pano2VR Tour"
                 ></iframe>
 

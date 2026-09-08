@@ -1,3 +1,4 @@
+import type { Room } from '../../types/tower';
 import { useNavigate, useParams } from "react-router-dom";
 import { floors } from "../../data/StadiaData";
 import { useState, useRef, useEffect } from "react";
@@ -21,10 +22,10 @@ export default function Unit_Stadia() {
     null
   );
   const [clickedRoom2D, setClickedRoom2D] = useState<number | null>(null);
-  const [hoveredRoomDefault, setHoveredRoomDefault] = useState<number | null>(
-    null
-  );
-  const [hoveredRoom2D, setHoveredRoom2D] = useState<number | null>(null);
+  // Only the setters are read: hovering repaints the sidebar row via CSS, so the
+  // values themselves are intentionally unused.
+  const [, setHoveredRoomDefault] = useState<number | null>(null);
+  const [, setHoveredRoom2D] = useState<number | null>(null);
 
   // Reference to the image container to calculate relative tooltip positions
   const containerRef = useRef<HTMLDivElement>(null);
@@ -71,7 +72,7 @@ export default function Unit_Stadia() {
   // 2. Click Handler for SVG Polygons
   const handlePolygonClick = (
     e: React.MouseEvent,
-    room: any,
+    room: Room,
     layout: "default" | "2D"
   ) => {
     e.stopPropagation();
@@ -94,7 +95,7 @@ export default function Unit_Stadia() {
   };
 
   // 3. Click Handler for Sidebar Room items
-  const handleSidebarRoomClick = (room: any) => {
+  const handleSidebarRoomClick = (room: Room) => {
     const isDefaultLayout = activeLayout === "default";
 
     // Update active highlight states
@@ -141,7 +142,7 @@ export default function Unit_Stadia() {
               {(activeLayout === "default"
                 ? singleUnit.rooms
                 : singleUnit.roomstatic
-              )?.map((room: any, index: number) => {
+              )?.map((room: Room, index: number) => {
                 const isDefaultLayout = activeLayout === "default";
                 const is2DLayout = activeLayout === "2D";
 
@@ -207,7 +208,7 @@ export default function Unit_Stadia() {
                 {(activeLayout === "default"
                   ? singleUnit.rooms
                   : singleUnit.roomstatic
-                )?.map((room: any) => (
+                )?.map((room: Room) => (
                   <polygon
                     id={`room-polygon-${room.id}`}
                     key={room.id}
@@ -221,11 +222,11 @@ export default function Unit_Stadia() {
                     }
                     className="transition-colors duration-500 cursor-pointer"
                     onMouseEnter={(e) =>
-                      handlePolygonClick(e, room, activeLayout as any)
+                      handlePolygonClick(e, room, activeLayout as "default" | "2D")
                     }
                     onMouseLeave={() => setSvgTooltip(null)}
                     onClick={(e) =>
-                      handlePolygonClick(e, room, activeLayout as any)
+                      handlePolygonClick(e, room, activeLayout as "default" | "2D")
                     }
                   />
                 ))}

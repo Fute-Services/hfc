@@ -2,7 +2,9 @@ export default function MasterPlanDescription() {
 
     return (<>
 
-        <div className='absolute top-10 right-0 hidden lg:block'>
+        {/* Sits below the Walkthrough button, which is pinned at lg:top-[10%] on
+            the master plan page — starting any higher overlaps it. */}
+        <div className='absolute top-[19%] right-2 max-w-[22rem] hidden lg:block'>
             <div className='p-1'>
                 <button className='font-bold bg-gradient-to-r mb-4 rounded-sm px-16 py-2 text-white from-[#e6a524] to-[#696a68]'>
                     MASTER PLAN

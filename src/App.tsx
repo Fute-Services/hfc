@@ -1,65 +1,72 @@
 
 
 
+import { lazy, Suspense } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
-import HomePage from './Pages/Arena/HomePage.tsx'
 import Header from './components/Header'
 import NotFoundPage from './Pages/NotFoundPage'
 
-import LocationPage from './Pages/Arena/LocationPage.tsx'
-
-import ProjectDetails from './Pages/Arena/ProjectDetails.tsx'
-import Pavilion from './Towers/Tower3_Pavilion/Pavilion.tsx'
-
-import MasterPlanPage from './Pages/Arena/MasterPlanPage.tsx';
-import Floor_Pavilion from './Towers/Tower3_Pavilion/Floor_Pavilion.tsx'
-import GalleryPage from './Pages/Arena/GalleryPage.tsx';
-// import GalleryPage1 from './Pages/Arena/GalleryPage1.tsx';
-import Unit_Pavilion from './Towers/Tower3_Pavilion/Unit_Pavilion.tsx'
-import GrandStand from './Towers/Grandstand/GrandStand.tsx';
-import Floor_Grandstand from './Towers/Grandstand/Floor_Grandstand.tsx';
-import Unit_Grandstand from './Towers/Grandstand/Unit_Grandstand.tsx';
 import Navbar from './components/Navbar.tsx'
 
-import ProjectHighlight from './Pages/Arena/ProjectHighlights1.tsx';
-import Arcadia from './Towers/Arcadia/Arcadia.tsx'
-import Citatel from './Towers/Citatel/Citatel.tsx'
-import GreenField from './Towers/GreenField/GreenField.tsx'
-import Athletica from './Towers/Athletica/Athletica.tsx'
-import Floor_Arcadia from './Towers/Arcadia/Floor_Arcadia.tsx'
-import Unit_Arcadia from './Towers/Arcadia/Unit_Arcadia.tsx'
-import Floor_Citatel from './Towers/Citatel/Floor_Citatel.tsx'
-import Unit_Citatel from './Towers/Citatel/Unit_Citatel.tsx'
-import Floor_Greenfield from './Towers/GreenField/Floor_Greenfield.tsx'
-import Unit_Greenfield from './Towers/GreenField/Unit_Greenfield.tsx'
 import EntrancePage from './Pages/EntrancePage'
-import EntrancePageEbony from './Pages/Ebony/EntrancePageEbony.tsx'
-import EntrancePageGoldenWillows from './Pages/GoldenWillows/EntrancePageGoldenWillows.tsx'
-import ProjectHighlights_Gold from './Pages/GoldenWillows/ProjectHighlights_Gold.tsx'
 import NabarGoldenWillows from './components/NavbarGoldenWillows.tsx'
-import LocationPage_Gold from './Pages/GoldenWillows/LocationPage_Gold.tsx';
-import ProjectStatus_Golden from './Pages/GoldenWillows/ProjectStatus_Golden.tsx'
-import GalleryPageGolden from './Pages/GoldenWillows/GalleryPageGolden.tsx'
-import GoldenWillowsLayout from './Pages/GoldenWillows/GoldenWillowsLayout.tsx'
-import ProjectDetailsPage from './Pages/GoldenWillows/ProjectDetailsPage.tsx'
-// import MainTowerPage from './Pages/GoldenWillows/Towers_Golden/MainTowerPage.tsx'
-// import FloorPage from './Pages/GoldenWillows/Towers_Golden/FloorPage.tsx'
-// import UnitPage from './Pages/GoldenWillows/Towers_Golden/UnitPage.tsx'     "/arena_grandstand",
-import Unit_Athletica from './Towers/Athletica/Unit_Athletica.tsx'
-import Floor_Athletica from './Towers/Athletica/Floor_Athletica.tsx'
-import ClubHouse from './Pages/Club_House/ClubHouse.tsx';
-import Arena_Walkthrough from './Pages/Arena/Arena_Walkthrough.tsx'
-import Arena_Quality from './Pages/Arena/Arena_Quality.tsx'
-import QualityTab from './Pages/QualityTab.tsx'
-import Project_Status from './Pages/Arena/Project_Status.tsx'
-import Location360 from './Pages/Arena/Location360.tsx'
-import Stadia from './Towers/Stadia/Stadia.tsx'
-import Floor_Stadia from './Towers/Stadia/Floor_Stadia.tsx'
-import Unit_Stadia from './Towers/Stadia/Unit_Stadia.tsx'
-import Olympus from './Towers/Olympus/Olympus.tsx'
-import Floor_Olympus from './Towers/Olympus/Floor_olympus.tsx'
-import Unit_Olympus from './Towers/Olympus/Unit_Olympus.tsx'
+// Route components are code-split so the entrance page no longer ships every
+// tower dataset (~122k lines of polygon coordinates) up front.
+const HomePage = lazy(() => import('./Pages/Arena/HomePage.tsx'))
+const LocationPage = lazy(() => import('./Pages/Arena/LocationPage.tsx'))
+const ProjectDetails = lazy(() => import('./Pages/Arena/ProjectDetails.tsx'))
+const Pavilion = lazy(() => import('./Towers/Tower3_Pavilion/Pavilion.tsx'))
+const MasterPlanPage = lazy(() => import('./Pages/Arena/MasterPlanPage.tsx'))
+const Floor_Pavilion = lazy(() => import('./Towers/Tower3_Pavilion/Floor_Pavilion.tsx'))
+const GalleryPage = lazy(() => import('./Pages/Arena/GalleryPage.tsx'))
+const Unit_Pavilion = lazy(() => import('./Towers/Tower3_Pavilion/Unit_Pavilion.tsx'))
+const GrandStand = lazy(() => import('./Towers/Grandstand/GrandStand.tsx'))
+const Floor_Grandstand = lazy(() => import('./Towers/Grandstand/Floor_Grandstand.tsx'))
+const Unit_Grandstand = lazy(() => import('./Towers/Grandstand/Unit_Grandstand.tsx'))
+const ProjectHighlight = lazy(() => import('./Pages/Arena/ProjectHighlights1.tsx'))
+const Arcadia = lazy(() => import('./Towers/Arcadia/Arcadia.tsx'))
+const Citatel = lazy(() => import('./Towers/Citatel/Citatel.tsx'))
+const GreenField = lazy(() => import('./Towers/GreenField/GreenField.tsx'))
+const Athletica = lazy(() => import('./Towers/Athletica/Athletica.tsx'))
+const Floor_Arcadia = lazy(() => import('./Towers/Arcadia/Floor_Arcadia.tsx'))
+const Unit_Arcadia = lazy(() => import('./Towers/Arcadia/Unit_Arcadia.tsx'))
+const Floor_Citatel = lazy(() => import('./Towers/Citatel/Floor_Citatel.tsx'))
+const Unit_Citatel = lazy(() => import('./Towers/Citatel/Unit_Citatel.tsx'))
+const Floor_Greenfield = lazy(() => import('./Towers/GreenField/Floor_Greenfield.tsx'))
+const Unit_Greenfield = lazy(() => import('./Towers/GreenField/Unit_Greenfield.tsx'))
+const EntrancePageEbony = lazy(() => import('./Pages/Ebony/EntrancePageEbony.tsx'))
+const EntrancePageGoldenWillows = lazy(() => import('./Pages/GoldenWillows/EntrancePageGoldenWillows.tsx'))
+const ProjectHighlights_Gold = lazy(() => import('./Pages/GoldenWillows/ProjectHighlights_Gold.tsx'))
+const LocationPage_Gold = lazy(() => import('./Pages/GoldenWillows/LocationPage_Gold.tsx'))
+const ProjectStatus_Golden = lazy(() => import('./Pages/GoldenWillows/ProjectStatus_Golden.tsx'))
+const GalleryPageGolden = lazy(() => import('./Pages/GoldenWillows/GalleryPageGolden.tsx'))
+const GoldenWillowsLayout = lazy(() => import('./Pages/GoldenWillows/GoldenWillowsLayout.tsx'))
+const ProjectDetailsPage = lazy(() => import('./Pages/GoldenWillows/ProjectDetailsPage.tsx'))
+const Unit_Athletica = lazy(() => import('./Towers/Athletica/Unit_Athletica.tsx'))
+const Floor_Athletica = lazy(() => import('./Towers/Athletica/Floor_Athletica.tsx'))
+const ClubHouse = lazy(() => import('./Pages/Club_House/ClubHouse.tsx'))
+const Arena_Walkthrough = lazy(() => import('./Pages/Arena/Arena_Walkthrough.tsx'))
+const QualityTab = lazy(() => import('./Pages/QualityTab.tsx'))
+const Project_Status = lazy(() => import('./Pages/Arena/Project_Status.tsx'))
+const Location360 = lazy(() => import('./Pages/Arena/Location360.tsx'))
+const Stadia = lazy(() => import('./Towers/Stadia/Stadia.tsx'))
+const Floor_Stadia = lazy(() => import('./Towers/Stadia/Floor_Stadia.tsx'))
+const Unit_Stadia = lazy(() => import('./Towers/Stadia/Unit_Stadia.tsx'))
+const Olympus = lazy(() => import('./Towers/Olympus/Olympus.tsx'))
+const Floor_Olympus = lazy(() => import('./Towers/Olympus/Floor_olympus.tsx'))
+const Unit_Olympus = lazy(() => import('./Towers/Olympus/Unit_Olympus.tsx'))
+
+// Shown while a route chunk loads. A blank screen on a sales kiosk reads as a crash,
+// so this keeps the brand colours on screen instead.
+function RouteFallback() {
+  return (
+    <div className="w-screen h-screen flex items-center justify-center bg-[#5d5c61]">
+      <div className="h-12 w-12 rounded-full border-4 border-white/30 border-t-[#e6a524] animate-spin" />
+    </div>
+  )
+}
+
 function App() {
 
   const location = useLocation();
@@ -83,6 +90,7 @@ function App() {
   return (
     <>
       {hideheader && <Header />}
+      <Suspense fallback={<RouteFallback />}>
       <Routes>
         <Route path="/" element={<EntrancePage />} />
         <Route path="/arena" element={<HomePage />} />
@@ -90,11 +98,9 @@ function App() {
         <Route path="/arena_master-plan" element={<MasterPlanPage />} />
         <Route path="/arena_location" element={<LocationPage />} />
         <Route path="/arena_gallery" element={<GalleryPage />} />
-        {/* <Route path="/arena_gallery" element={<GalleryPage />} /> */}
         <Route path="/360" element={<Location360/>}/>
         <Route path="/arena_project_details" element={<ProjectDetails />} />
         <Route path="/arena_walkthrough" element={<Arena_Walkthrough/>}/>
-        <Route path="/arena_quality" element={<Arena_Quality />} />
         <Route path="/project_status" element={<Project_Status/>}/>
         <Route path="*" element={<NotFoundPage />} />
 
@@ -150,9 +156,6 @@ function App() {
         <Route path="/goldenwillowslayout" element={<GoldenWillowsLayout />} />
         <Route path="/projectdetails_golden" element={<ProjectDetailsPage />} />
         {/* Towers */}
-        {/* <Route path="/tower_goldenwillows/:towerId" element={<MainTowerPage />} /> */}
-        {/* <Route path="/golden_floor/:id" element={<FloorPage />} /> */}
-        {/* <Route path="/golden_unit/:id" element={<UnitPage />} /> */}
 
         {/* club-house */}
         <Route path="/club-house" element={<ClubHouse/>}/>
@@ -161,6 +164,7 @@ function App() {
 
 
       </Routes>
+      </Suspense>
 
       {shouldShowNavbar && <Navbar />}
 

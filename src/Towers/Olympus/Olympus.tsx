@@ -1,3 +1,4 @@
+import type { Floor } from '../../types/tower';
 import bgImage from '../../assets/olympus/Olympus elev interface.png';
 import { IoReturnUpBackOutline } from "react-icons/io5";
 
@@ -8,7 +9,7 @@ import { floorsData, description } from '../../data/Olympus';
 
 export default function Olympus() {
   const navigate = useNavigate();
-  const [hoveredFloor, setHoveredFloor] = useState<any>(null);
+  const [hoveredFloor, setHoveredFloor] = useState<Floor | null>(null);
 
 
 
@@ -94,7 +95,7 @@ export default function Olympus() {
         aria-hidden="true"
       >
         <defs>
-          {floorsData.map((f: any) => (
+          {floorsData.map((f: Floor) => (
             <linearGradient
               key={`gradient-${f.id}`}
               id={`gradient-${f.id}`}
@@ -114,7 +115,7 @@ export default function Olympus() {
           ))}
         </defs>
 
-        {floorsData.map((floor: any, _index) => {
+        {floorsData.map((floor: Floor) => {
           const isActive = hoveredFloor?.id === floor.id
           // || selectedRow === index;
           return (
@@ -142,7 +143,7 @@ export default function Olympus() {
         })}
       </svg>
 
-      {floorsData.map((floor: any) => {
+      {floorsData.map((floor: Floor) => {
         return (<Tooltip
           key={`tooltip-${floor.id}`}
           id={`tooltip-${floor.id}`}

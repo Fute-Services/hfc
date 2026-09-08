@@ -249,7 +249,7 @@ export default function Floor_Arcadia() {
                         <CloseIcon />
                     </IconButton>
                     <img
-                        src={singleFloor.image1}
+                        src={singleFloor.image1 ?? singleFloor.image}
                         alt={`Floor ${singleFloor.id}`}
                         className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg"
                     />

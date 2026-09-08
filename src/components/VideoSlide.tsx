@@ -4,7 +4,6 @@ const VideoSlide = forwardRef<HTMLIFrameElement>((props, ref) => (
   <iframe
     ref={ref}
     src="https://fast.wistia.net/embed/iframe/gjqpm13f05?videoFoam=true&autoplay=true"
-    allowTransparency={true}
     frameBorder="0"
     scrolling="no"
     allowFullScreen

@@ -10,7 +10,7 @@ export default function EntrancePageGoldenWillows() {
         <div className="w-screen h-screen">
             <WithoutbgHeader />
             <iframe
-                src="pano/pano1/index.html"
+                src="https://futeservices.com/25-26/Hiranandani%20Golden%20Willows%20Panvel%20360/index.html"
                 className="w-full h-full border-0"
                 title="Pano2VR Tour"
             ></iframe>

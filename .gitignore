@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store

@@ -1,1 +1,7 @@
-/*    /index.html   200
+# Real 404 for missing static assets instead of silently serving the SPA shell,
+# which previously made a broken /pano/ iframe render the app's own 404 page.
+/assets/*  /assets/:splat  404
+/pano/*    /pano/:splat    404
+
+# SPA fallback
+/*         /index.html     200

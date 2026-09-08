@@ -15,14 +15,14 @@ export default function PureSlider({ slides = [], interval = 3800 }: PureSliderP
     useEffect(() => {
         if (paused) return;
 
-        let timer: any;
+        let timer: ReturnType<typeof setTimeout>;
 
 
 
         if (index === 0 && videoRef.current) {
             const iframe = videoRef.current;
             const handleWistiaReady = () => {
-                // @ts-ignore
+                // @ts-expect-error - Wistia injects its own global, which has no bundled types
                 const wistiaEmbed = window.Wistia?.embed(iframe);
                 if (wistiaEmbed) {
                     wistiaEmbed.bind("end", () => {
@@ -36,7 +36,17 @@ export default function PureSlider({ slides = [], interval = 3800 }: PureSliderP
             // Wait a little to ensure Wistia API loads
             const readyTimer = setTimeout(handleWistiaReady, 1000);
 
-            return () => clearTimeout(readyTimer);
+            // Safety net: if Wistia is blocked or never reports "end", the carousel
+            // would otherwise stop on the video forever. Advance anyway.
+            const fallbackMs = Array.isArray(interval) ? interval[0] : interval;
+            const fallbackTimer = setTimeout(() => {
+                setIndex((prev) => (prev + 1) % slides.length);
+            }, fallbackMs);
+
+            return () => {
+                clearTimeout(readyTimer);
+                clearTimeout(fallbackTimer);
+            };
         } else {
             // Other slides use interval
             timer = setTimeout(() => {
@@ -56,7 +66,7 @@ export default function PureSlider({ slides = [], interval = 3800 }: PureSliderP
             >
                 {slides.map((slide, i) => (
                     <div key={i} className="min-w-full">
-                        {i === 0 ? React.cloneElement(slide as any, { ref: videoRef }) : slide}
+                        {i === 0 ? React.cloneElement(slide as React.ReactElement<{ ref?: React.Ref<HTMLIFrameElement> }>, { ref: videoRef }) : slide}
                     </div>
                 ))}
             </div>

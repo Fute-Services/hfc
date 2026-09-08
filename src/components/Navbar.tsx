@@ -10,7 +10,6 @@ const menuItems = [
   { label: "Project Details", href: "/arena_project_details" },
     { label: "Project Status", href: "/project_status" },
   { label: "Gallery", href: "/arena_gallery" },
-  // { label: "Quality", href: "/arena_quality" }
 ];
 
 export default function Navbar() {

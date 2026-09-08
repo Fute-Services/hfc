@@ -1,3 +1,4 @@
+import type { Room } from '../../types/tower';
 import { useNavigate, useParams } from "react-router-dom";
 import { floors } from '../../data/TowersData';
 import { useState, useRef, useEffect } from "react";
@@ -60,7 +61,7 @@ export default function Unit_Pavilion() {
   };
 
   // Logic to calculate tooltip position relative to the container
-  const handlePolygonClick = (e: React.MouseEvent, room: any, layout: "default" | "2D") => {
+  const handlePolygonClick = (e: React.MouseEvent, room: Room, layout: "default" | "2D") => {
     e.stopPropagation();
     if (containerRef.current) {
       const rect = containerRef.current.getBoundingClientRect();
@@ -106,7 +107,7 @@ export default function Unit_Pavilion() {
           {activeLayout !== "2Dstatic" && (
             <div className="lg:max-h-[450px] max-h-[300px] overflow-y-scroll p-2 bg-[rgba(251,245,222,0.6)] rounded-md ">
               {/* Show the list from rooms (default) or roomstatic (2D) depending on activeLayout */}
-              {/* {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any, index: number) => {
+              {/* {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: Room, index: number) => {
                 // choose states depending on layout
                 const isDefaultLayout = activeLayout === "default";
                  const is2DLayout = activeLayout === "2D";
@@ -128,7 +129,7 @@ export default function Unit_Pavilion() {
               {(activeLayout === "default"
                 ? singleUnit.rooms
                 : singleUnit.roomstatic
-              )?.map((room: any, index: number) => {
+              )?.map((room: Room, index: number) => {
 
                 const isDefaultLayout = activeLayout === "default";
                 const is2DLayout = activeLayout === "2D";
@@ -190,16 +191,16 @@ export default function Unit_Pavilion() {
                 preserveAspectRatio="xMidYMid meet"
                 onClick={() => setSvgTooltip(null)}
               >
-                {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any) => (
+                {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: Room) => (
                   <polygon
                     key={room.id}
                     points={room.polygon}
                     fill={(activeLayout === "default" ? clickedRoomDefault : clickedRoom2D) === room.id
                       ? "rgba(184, 38, 217, 0.4)" : "transparent"}
                     className=" transition-colors duration-300"
-                    // onMouseEnter={(e) => handlePolygonClick(e, room, activeLayout as any)}
+                    // onMouseEnter={(e) => handlePolygonClick(e, room, activeLayout as "default" | "2D")}
                     // onMouseLeave={ ()=>handlePolygonLeave()}
-                    onClick={(e) => handlePolygonClick(e, room, activeLayout as any)}
+                    onClick={(e) => handlePolygonClick(e, room, activeLayout as "default" | "2D")}
                   />
                 ))}
               </svg>
