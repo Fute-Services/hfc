@@ -26,7 +26,7 @@ export default function GrandStand() {
           {/* Hotspot */}
           <div
             data-tooltip-id={`tooltip-${floor.id}`}
-            onDoubleClick={() => navigate(`/arena_floorgrandstand/${floor.id}`)}
+            onClick={() => navigate(`/arena_floorgrandstand/${floor.id}`)}
             className="absolute cursor-pointer rounded-sm  transition-all duration-300"
             style={{
               top: floor.top,

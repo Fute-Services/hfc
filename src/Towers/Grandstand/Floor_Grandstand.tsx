@@ -69,7 +69,7 @@ export default function Floor_Pavilion() {
             `}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                onDoubleClick={() => setSelectedUnit(unit.id)}
+                                onClick={() => setSelectedUnit(unit.id)}
                             >
                                 <p>{unit.name}</p> <p>{unit.type}</p>
                             </li>

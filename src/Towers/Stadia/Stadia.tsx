@@ -43,7 +43,7 @@ export default function Pavilion() {
               className="cursor-pointer transition-all duration-300 outline-none focus:outline-none focus:stroke-none"
               onMouseEnter={() => setHoveredId(floor.id)}
               onMouseLeave={() => setHoveredId(null)}
-              onDoubleClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
+              onClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
             />
           ))}
         </svg>

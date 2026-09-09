@@ -28,7 +28,7 @@ export default function Athletica() {
           {/* Hotspot */}
           <div
             data-tooltip-id={`tooltip-${floor.id}`}
-            onDoubleClick={() => navigate(`/arena_flooratheletica/${floor.id}`)}
+            onClick={() => navigate(`/arena_flooratheletica/${floor.id}`)}
             className="absolute cursor-pointer rounded-sm  transition-all duration-300"
             style={{
               top: floor.top,

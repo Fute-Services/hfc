@@ -22,7 +22,7 @@ export default function Pavilion() {
           
           <div
             data-tooltip-id={`tooltip-${floor.id}`}
-            onDoubleClick={() => navigate(`/arena_floorpavilion/${floor.id}`)}
+            onClick={() => navigate(`/arena_floorpavilion/${floor.id}`)}
             className="absolute cursor-pointer rounded-sm  transition-all duration-300"
             style={{
               top: floor.top,

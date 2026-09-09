@@ -135,7 +135,7 @@ export default function Olympus() {
                   : "none",
               }}
               // onClick={() => navigate(`/unitplan/${floor.id}`)}
-              onDoubleClick={() => navigate(`/arena_floorolympus/${floor.id}`)}
+              onClick={() => navigate(`/arena_floorolympus/${floor.id}`)}
               onMouseEnter={() => setHoveredFloor(floor)}
               onMouseLeave={() => setHoveredFloor(null)}
             />

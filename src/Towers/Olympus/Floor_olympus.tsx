@@ -71,7 +71,7 @@ export default function Floor_Olympus() {
             `}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                // onClick={() => setSelectedUnit(prev => prev === unit.id ? null : unit.id)}
+                                onClick={() => setSelectedUnit(unit.id)}
                                 // onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             >
                                 <p>{unit.name}</p> <p>{unit.type}</p>

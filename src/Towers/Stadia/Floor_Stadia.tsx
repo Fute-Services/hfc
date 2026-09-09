@@ -78,7 +78,7 @@ export default function Floor_Stadia() {
             `}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                onDoubleClick={() => setSelectedUnit(unit.id)}
+                                onClick={() => setSelectedUnit(unit.id)}
                             // onClick={(e) => {
                             //     e.stopPropagation();
                             //     // Toggle selection: if already selected, close it; otherwise, select new.

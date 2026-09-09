@@ -24,7 +24,7 @@ export default function Arcadia() {
           {/* Hotspot */}
           <div
             data-tooltip-id={`tooltip-${floor.id}`}
-            onDoubleClick={() => navigate(`/arena_floorarcadia/${floor.id}`)}
+            onClick={() => navigate(`/arena_floorarcadia/${floor.id}`)}
             className="absolute cursor-pointer rounded-sm  transition-all duration-300"
             style={{
               top: floor.top,
