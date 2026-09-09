@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom"
 
-
+// The overlay links are styled as buttons. They must BE the anchor, not wrap one:
+// a <Link> nested inside a <button> only makes the text itself clickable, so the
+// button's own padding swallowed clicks and the nav felt like it needed a second try.
+const buttonClass =
+    "block w-full text-center bg-white/80 text-gray-800/90 hover:text-black " +
+    "text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300"
 
 export default function EntrancePage() {
     return (<>
@@ -17,36 +22,20 @@ export default function EntrancePage() {
                 {/* Overlay Buttons bg-[rgb(253,175,23,0.7)]*/}
                 <div className="absolute  top-0 right-4 h-full flex flex-col justify-center items-center z-30 pointer-events-auto">
                     <div className="flex w-full flex-col gap-2">
-                        <button className="bg-white/80 text-gray-800/90 hover:text-black text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300"><Link to="/arena">THE ARENA</Link></button>
+                        <Link to="/arena" className={buttonClass}>THE ARENA</Link>
 
-                         <button className="bg-white/80 text-gray-800/90 
-                         hover:text-black text-[14px] px-3 py-2 font-bold 
-                         rounded-lg hover:bg-white transition-all duration-300">
-                            <Link to="https://elena.futeservices.in">ELENA</Link></button>
-                        <button className="bg-white/80 text-gray-800/90 hover:text-black text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300">
-                            <Link to="https://ebony.futeservices.in">
-                                EBONY
-                            </Link>
-                        </button>
-                        <button className="bg-white/80 text-gray-800/90 hover:text-black text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300">
-                            {/* <Link to="https://hiranandanigoldenwillows.futeservices.in">GOLDEN WILLOWS</Link> */}
-                            {/* <Link to="/goldenwillows">GOLDEN WILLOWS</Link>  */}
-                            <Link to="https://hiranandanigoldenwillows.com">GOLDEN WILLOWS</Link>
+                        <Link to="https://elena.futeservices.in" className={buttonClass}>ELENA</Link>
 
-                        </button>
-                        <button className="bg-white/80 text-gray-800/90 hover:text-black text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300">
-                            {/* <Link to="https://hiranandanigoldenwillows.com/club-house.php"> */}
-                            <Link to="/club-house">
-                                CLUB HOUSE</Link></button>
+                        <Link to="https://ebony.futeservices.in" className={buttonClass}>EBONY</Link>
 
+                        {/* <Link to="https://hiranandanigoldenwillows.futeservices.in">GOLDEN WILLOWS</Link> */}
+                        {/* <Link to="/goldenwillows">GOLDEN WILLOWS</Link>  */}
+                        <Link to="https://hiranandanigoldenwillows.com" className={buttonClass}>GOLDEN WILLOWS</Link>
 
-                        <button className="bg-white/80 text-gray-800/90 hover:text-black text-[14px] px-3 py-2 font-bold rounded-lg hover:bg-white transition-all duration-300">
-                            {/* <Link to="https://hiranandanigoldenwillows.com/club-house.php"> */}
-                            <Link to="/quality">
-                                QUALITY</Link></button>
+                        {/* <Link to="https://hiranandanigoldenwillows.com/club-house.php"> */}
+                        <Link to="/club-house" className={buttonClass}>CLUB HOUSE</Link>
 
-
-
+                        <Link to="/quality" className={buttonClass}>QUALITY</Link>
 
                     </div>
                 </div>
