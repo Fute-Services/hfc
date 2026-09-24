@@ -12,7 +12,7 @@ export default function LocationPage() {
       <Header />
       <div className='absolute bg-black/70 h-screen w-screen'></div>
 
-      {/* Wistia video overlay using iframe */}
+      {/* Vimeo video overlay using iframe */}
       <div className="absolute top-[35%]  lg:top-[10%] xl:top-[10%] 2xl:top-1 left-0 w-full h-full flex items-center justify-center text-white">
         <div
           style={{
@@ -24,8 +24,8 @@ export default function LocationPage() {
           }}
         >
           <iframe
-            src="https://fast.wistia.net/embed/iframe/ak6r9x3joq?videoFoam=true&autoplay=true"
-            title="Wistia Video"
+            src="https://player.vimeo.com/video/1229762075?h=26a4cac523&autoplay=1"
+            title="Vimeo Video"
             allow="autoplay; fullscreen"
             allowFullScreen
             style={{
